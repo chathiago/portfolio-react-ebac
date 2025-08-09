@@ -6,5 +6,10 @@ export const GithubSection = styled.div `
 
   img {
     max-height: 158px;
+
+    @media (max-width: 768px) {
+      height: auto;
+      width: 100%;
+    }
   }
 `
